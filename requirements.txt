@@ -6,8 +6,6 @@ requests==2.31.0
 python-dotenv==1.0.0
 langgraph==0.4.8
 typing-extensions==4.7.1
-<<<<<<< HEAD
 python-dateutil==2.8.2
-=======
 python-dateutil==2.8.2
->>>>>>> 6caa67aba56c2df3e4e5d44438f6833974a73d7a
+
