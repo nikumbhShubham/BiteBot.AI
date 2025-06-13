@@ -1,9 +1,12 @@
-# Core requirements (no Rust compilation needed)
+# Use versions with pre-built wheels
 fastapi==0.109.1
-uvicorn==0.27.0
+uvicorn[standard]==0.27.0  # Uses C extensions instead of Rust
 python-dotenv==1.0.0
 requests==2.31.0
+
+# Use Pydantic with pre-built core
 pydantic==2.6.1
+pydantic-core==2.16.2 --prefer-binary
 
 # AI components
 cohere==4.34
