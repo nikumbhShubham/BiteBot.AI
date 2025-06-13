@@ -92,7 +92,7 @@ function App() {
           <div className="flex items-center justify-center space-x-3 text-gray-600">
             <h2 className="text-sm font-medium">Developed By: Shubham Nikumbh</h2>
             <a
-              href="https://github.com/Rohiw08/pbl"
+              href="https://github.com/nikumbhShubham/BiteBot.AI"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-600"
