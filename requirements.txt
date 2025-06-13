@@ -1,13 +1,19 @@
-# Core API stack
-fastapi==0.95.2
+# requirements.txt - Rust/C compilation free version
+
+# Core dependencies
+fastapi==0.95.2  # Last version before Pydantic v2 requirement
 uvicorn[standard]==0.27.0
 python-dotenv==1.0.0
 requests==2.31.0
 
-# AI services
+# AI components (pure Python versions)
 cohere==4.34
-langchain-community==0.0.20  # HTTP client only
+langchain-core==0.1.0  # Version before Pydantic v2 requirement
 typing-extensions==4.9.0
 
-# Utilities
+# Data processing
 python-dateutil==2.8.2
+numpy==1.26.4  # Explicitly specify version with pre-built wheels
+
+# Add this to prevent C compilation attempts
+--only-binary :all:
