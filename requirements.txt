@@ -13,7 +13,7 @@ typing-extensions==4.9.0
 
 # Data processing
 python-dateutil==2.8.2
-numpy==1.26.4  # Explicitly specify version with pre-built wheels
+
 
 # Add this to prevent C compilation attempts
 --only-binary :all:
