@@ -7,7 +7,7 @@ python-dotenv==1.0.0
 requests==2.31.0
 
 # Cohere AI (with dependency constraints)
-cohere==4.34
+cohere
 backoff==2.2.1
 aiohttp==3.9.3  # Explicitly specify compatible version
 
