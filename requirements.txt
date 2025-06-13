@@ -1,13 +1,12 @@
 # Core dependencies
-fastapi
+fastapi==0.95.2  # Last pre-Pydantic-v2 version
 uvicorn[standard]==0.27.0
 python-dotenv==1.0.0
 requests==2.31.0
 
-# AI/Language Processing
+# AI components (older versions without Pydantic v2)
 cohere==4.34
-langgraph==0.0.22
-langchain-core==0.1.23
+langchain-core==0.1.0  # Version before Pydantic v2 requirement
 typing-extensions==4.9.0
 
 # Data processing
