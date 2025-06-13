@@ -1,11 +1,26 @@
-Flask==2.3.2
-flask-cors==3.0.10
-gunicorn
-cohere==4.34
-requests==2.31.0
+# Core dependencies
+fastapi==0.109.1
+uvicorn==0.27.0
 python-dotenv==1.0.0
-langgraph==0.4.8
-typing-extensions==4.7.1
+requests==2.31.0
+pydantic==2.6.1
+
+# AI/Language Processing
+cohere==4.34
+langgraph==0.0.22
+langchain-core==0.1.23
+typing-extensions==4.9.0
+
+# Data processing
 python-dateutil==2.8.2
+pytz==2023.3.post1
 
+# Development & Testing
+pytest==7.4.4
+httpx==0.26.0
+pytest-asyncio==0.23.5
 
+# Optional (for production)
+gunicorn==21.2.0
+uvloop==0.19.0
+watchfiles==0.21.0
