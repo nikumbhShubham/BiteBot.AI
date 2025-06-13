@@ -1,19 +1,14 @@
-# Use versions with pre-built wheels
+# Core dependencies
 fastapi==0.109.1
-uvicorn[standard]==0.27.0  # Uses C extensions instead of Rust
+uvicorn[standard]==0.27.0
 python-dotenv==1.0.0
 requests==2.31.0
 
-# Use Pydantic with pre-built core
-pydantic==2.6.1
-pydantic-core==2.16.2 --prefer-binary
-
-# AI components
+# AI/Language Processing
 cohere==4.34
 langgraph==0.0.22
 langchain-core==0.1.23
 typing-extensions==4.9.0
 
-# Date/time handling
+# Data processing
 python-dateutil==2.8.2
-pytz==2023.3.post1
