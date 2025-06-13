@@ -1,21 +1,16 @@
-# Core dependencies
+# Core requirements (no Rust compilation needed)
 fastapi==0.109.1
 uvicorn==0.27.0
 python-dotenv==1.0.0
 requests==2.31.0
 pydantic==2.6.1
 
-# AI/Language Processing
+# AI components
 cohere==4.34
 langgraph==0.0.22
 langchain-core==0.1.23
 typing-extensions==4.9.0
 
-# Data processing
+# Date/time handling
 python-dateutil==2.8.2
 pytz==2023.3.post1
-
-# Development & Testing (optional - remove for production)
-pytest==7.4.4
-httpx==0.26.0
-pytest-asyncio==0.23.5
